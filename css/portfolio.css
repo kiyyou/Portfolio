@@ -89,7 +89,11 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    
+    color: #999999;
+}
+nav {
+    font-family: Marvel;
+    font-size: 30px;
 }
 /*Start Parallax*/
 .parallax {
