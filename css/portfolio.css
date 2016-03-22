@@ -1,0 +1,113 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #999999;
+}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1 {
+	text-align: center;
+	font-size: 575%;
+	color: #4A4444;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+	margin: 45% 0;
+}
+h2 {
+	text-align: center;
+	font-size: 675%;
+	color: #E5E5E5;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+	font-family: Marvel;
+}
+h3 {
+	text-align: center;
+	font-size: 175%;
+	color: #E5E5E5;
+	letter-spacing: 1%;
+	text-transform: uppercase;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h3#header {
+		text-align: center;
+	font-size: 375%;
+	color: #E5E5E5;
+	letter-spacing: 1%;
+	text-transform: uppercase;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h4 {
+	text-align: center;
+	font-size: 125%;
+	color: #E5E5E5;
+	letter-spacing: 1%;
+	text-transform: uppercase;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h4#header {
+		text-align: center;
+	font-size: 275%;
+	color: #E5E5E5;
+	letter-spacing: 1%;
+	text-transform: uppercase;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+a {
+	color: #FDFDFD;
+	text-decoration: none;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.portfolio img {
+    border-radius: 50% 50% 50% 50%;
+    border: 3px solid #ffffff;
+    height: 200px;
+    width: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}	
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    
+}
+/*Start Parallax*/
+.parallax {
+	background: url("../images/edit-10.jpg") repeat fixed 100%;
+}
+.parallax-inner {
+	padding-top: 15%;
+	padding-bottom: 5%;
+}
+.parallax-inner_1 {
+	padding-top: 10%;
+	padding-bottom: 18%;
+}
+.parallax_2 {
+	background: url("../images/email_background.jpg") fixed 100%;
+}
+.parallax-inner_2 {
+	padding-top: 10%;
+	padding-bottom: 18%;
+}
+/*End Parallax*/
