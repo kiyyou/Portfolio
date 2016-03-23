@@ -77,6 +77,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(107,107,107,.6);
 }
 li {
     float: left;
@@ -95,8 +99,10 @@ nav {
     font-family: Marvel;
     font-size: 30px;
 }
+
+
 /*Start Parallax*/
-.parallax {
+#parallax {
 	background: url("../images/edit-10.jpg") repeat fixed 100%;
 }
 .parallax-inner {
